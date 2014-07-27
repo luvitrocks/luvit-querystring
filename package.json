@@ -1,0 +1,32 @@
+{
+  "name": "luvit-querystring",
+  "version": "0.0.1",
+  "description": "Missed querystring methods for luvit.io",
+  "main": "init.lua",
+  "scripts": {
+    "test": "luvit test/init.lua"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/luvitrocks/luvit-querystring"
+  },
+  "keywords": [
+    "luvit",
+    "querystring",
+    "stringify",
+    "utils",
+    "urldecode"
+  ],
+  "author": "tim-smart",
+  "contributors": [
+    "Dmitri Voronianski <dmitri.voronianski@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luvitrocks/luvit-querystring/issues"
+  },
+  "homepage": "https://github.com/luvitrocks/luvit-querystring",
+  "devDependencies": {
+    "luvit-test": "0.0.2"
+  }
+}
