@@ -19,7 +19,7 @@ end
 
 -- make sure value is converted to a valid string representation
 -- for querystring use
-function toquerystring (val, vtype)
+local function toquerystring (val, vtype)
 	vtype = vtype or type(val)
 
 	if 'table' == vtype then
@@ -32,7 +32,7 @@ function toquerystring (val, vtype)
 end
 
 -- insert a item into a querystring result table
-function insertqueryitem(ret, key, val, sep, eq)
+local function insertqueryitem(ret, key, val, sep, eq)
 	local vtype = nil -- string
 	local skey = nil -- string (Safe key)
 	local count = 0
